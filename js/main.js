@@ -48,7 +48,7 @@ window.addEventListener('load', function() {
         if (bartbool) {
             bart.classList.remove('personaje-seleccionado')
             bartbool = false
-            personajesElegidos.remove('Bart')
+            personajesElegidos.splice('Bart')
         } else {
             bart.classList.add('personaje-seleccionado')
             bartbool = true
